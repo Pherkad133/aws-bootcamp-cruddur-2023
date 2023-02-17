@@ -1,0 +1,17 @@
+[
+    {
+        "Notification": {
+            "ComparisonOperator": "GREATER_THAN",
+            "NotificationType": "ACTUAL",
+            "Threshold": 80,
+            "ThresholdType": "PERCENTAGE"
+        },
+        "Subscribers": [
+            {
+                "Address": "pherkad133@gmail.com",
+                "SubscriptionType": "EMAIL"
+            }
+        ]
+    }
+]
+
