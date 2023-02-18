@@ -97,3 +97,15 @@ aws budgets create-budget --account-id $AWS_ACCOUNT_ID --budget file://aws/json/
 
 ## billing alarm using gitpod bash terminal 
 
+by using these steps 
+- create a topic alarm `aws sns create-topic --name billing-alarm` ----> will get you an `TopicARN`
+- make the subscription by using your email and the Topicarn we got in the first step 
+
+```bash 
+aws sns subscribe \
+    --topic-arn $TopicARN \
+    --protocol email \
+    --notification-endpoint your@email.com
+```
+- confirm the confirmation mail 
+- create the alarm `aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm_config.json`
