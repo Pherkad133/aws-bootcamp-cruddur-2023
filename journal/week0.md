@@ -94,3 +94,6 @@ using this cli I was able to make the baudget of 5$
 ```bash
 aws budgets create-budget --account-id $AWS_ACCOUNT_ID --budget file://aws/json/budget.json --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
 ```
+
+## billing alarm using gitpod bash terminal 
+
