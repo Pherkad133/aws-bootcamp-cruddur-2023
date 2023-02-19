@@ -3,7 +3,7 @@
 
 ## Regarding the architectural diagram the CI/CD logical pipeline in Lucid Charts
 
-I was able to reproduce the diagram in Lucid charts and did the memonto SVG icon 
+I was able to reproduce the diagram in Lucid charts and did the memonto SVG icon [chart link](https://lucid.app/lucidchart/1c4af960-107a-4999-908b-ac8cdabaa62d/edit?viewport_loc=-114%2C34%2C2466%2C1288%2C0_0&invitationId=inv_beab2af5-7fc9-4406-8902-297eef81d8ab)
 
 ![Diagram](/Screenshot010846.png)
 
